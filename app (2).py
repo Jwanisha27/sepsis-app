@@ -5,7 +5,7 @@ import joblib
 from tensorflow.keras.models import load_model
 
 # Load the trained model and scaler
-model = load_model('your_model.keras')
+model = load_model('your_model(1).keras')
 scaler = joblib.load('scaler.pkl')
 
 # Title of the app
