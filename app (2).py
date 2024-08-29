@@ -5,8 +5,8 @@ import joblib
 from tensorflow.keras.models import load_model
 
 # Load the trained model and scaler
-model = load_model('your_model(1).keras')
-scaler = joblib.load('scaler(1).pkl')
+model = load_model('your_model (1).keras')
+scaler = joblib.load('scaler (1).pkl')
 
 # Title of the app
 st.title('Sepsis Survival Prediction App')
